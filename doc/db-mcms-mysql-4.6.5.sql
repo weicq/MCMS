@@ -841,6 +841,7 @@ CREATE TABLE `model` (
   `model_modelmanagerid` int(11) DEFAULT NULL COMMENT '模块关联的关联员id',
   `model_sort` int(11) DEFAULT NULL COMMENT '模块的排序',
   `model_ismenu` int(1) DEFAULT NULL COMMENT '模块是否是菜单',
+  `is_child` varchar(255) DEFAULT NULL COMMENT '菜单类型',
   `model_parent_ids` varchar(300) DEFAULT NULL COMMENT '父级编号集合，从小到大排序',
   PRIMARY KEY (`model_id`) USING BTREE,
   UNIQUE KEY `sys_c009201` (`model_id`) USING BTREE,

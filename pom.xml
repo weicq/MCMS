@@ -135,6 +135,7 @@
 			<artifactId>ms-upgrader</artifactId>
 			<version>1.0.4-SNAPSHOT</version>
 		</dependency>
+		
 		<!-- 针对mysql 8版本的驱动问题，项目的jdk必须为1.8  -->
 		<!--  
 		<dependency>

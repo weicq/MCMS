@@ -19,8 +19,6 @@
    -->
 <link rel="stylesheet" href="./css/amazeui.css">
 <link rel="stylesheet" href="./css/app.css">
-<link rel="stylesheet" href="./css/common.css">
-<link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
 	<div class="layout-header am-hide-sm-only">
@@ -39,12 +37,14 @@
 								<div class="header-contact">
 									<div class="header_contacts--item">
 										<div class="contact_mini">
-											<i style="color: #7c6aa6" class="am-icon-phone"> 86-10-58815456</i>
+											<i style="color: #7c6aa6; font-size: 12px"
+												class="am-icon-phone"> 86-10-58815456</i>
 										</div>
 									</div>
 									<div class="header_contacts--item">
 										<div class="contact_mini">
-											<i style="color: #7c6aa6" class="am-icon-envelope-o"> mail@ipsunny.com</i>
+											<i style="color: #7c6aa6; font-size: 12px"
+												class="am-icon-envelope-o"> mail@ipsunny.com</i>
 											<!-- 
 											<span>随时欢迎您的来信！</span>
 											 -->
@@ -52,7 +52,8 @@
 									</div>
 									<div class="header_contacts--item">
 										<div class="contact_mini">
-											<i style="color: #7c6aa6" class="am-icon-map-marker"> 北京海淀区长春桥路11号亿城中心C1座1805A</i>
+											<i style="color: #7c6aa6; font-size: 12px"
+												class="am-icon-map-marker"> 北京海淀区长春桥路11号亿城中心C1座1805A</i>
 										</div>
 									</div>
 								</div>
@@ -65,9 +66,9 @@
 
 
 			<!--nav start-->
-			<div class="nav-contain" >
+			<div class="nav-contain">
 				<div class="nav-inner">
-					<ul class="am-nav am-nav-pills am-nav-justify" >
+					<ul class="am-nav am-nav-pills am-nav-justify">
 						<li class=""><a href="./index.html">首页</a></li>
 						<li><a href="html/example.html">关于我们</a></li>
 						<li><a href="html/solution.html">专业团队</a></li>
@@ -91,74 +92,95 @@
 				</div>
 			</div>
 			<div class="am-u-sm-2">
-				<div class="menu-bars">
-					<a href="#doc-oc-demo1" data-am-offcanvas="{effect: 'push'}"><i
-						class="am-menu-toggle-icon am-icon-bars"></i></a>
-					<!-- 侧边栏内容 -->
-					<nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1"
-						data-am-menu-offcanvas>
-						<a href="javascript: void(0)" class="am-menu-toggle"></a>
+				<a href="#doc-oc-demo1" data-am-offcanvas="{effect: 'push'}"> <i
+					class="am-menu-toggle-icon am-icon-bars"></i>
+				</a>
+				<!-- 侧边栏内容 -->
+				<nav data-am-widget="menu" class="am-menu  am-menu-offcanvas1"
+					data-am-menu-offcanvas>
+					<a href="javascript: void(0)" class="am-menu-toggle"></a>
 
-						<div class="am-offcanvas">
-							<!--  菜单底色调整
+					<div class="am-offcanvas">
+						<!--  菜单底色调整
 							<div class="am-offcanvas-bar" style="background: #666666;">
 							-->
-							<div class="am-offcanvas-bar" style="background: #333333;">
-								<ul class="am-menu-nav am-avg-sm-1">
-									<li><a href="./index.html" class="">首页</a></li>
-									<li class=""><a href="about.html" class="">关于我们</a></li>
-									<li class=""><a href="html/example.html" class="">专业团队</a></li>
-									<li class=""><a href="html/solution.html" class="">服务范围</a></li>
-									<li class=""><a href="html/solution.html" class="">服务理念</a></li>
-									<li class=""><a href="html/contact.html" class="">联系我们</a></li>
-									<li class="am-parent"><a href=""
-										class="nav-icon nav-icon-globe">English</a>
-										<ul class="am-menu-sub am-collapse  ">
-											<li class=""><a href="#">中文</a></li>
-										</ul></li>
-									<li class="nav-share-contain">
-										<div class="nav-share-links">
-											<i class="am-icon-facebook"></i> <i class="am-icon-twitter"></i>
-											<i class="am-icon-qq"></i>
-										</div>
-									</li>
-								</ul>
+						<div class="am-offcanvas-bar" style="background: #333333;">
+							<ul class="am-menu-nav am-avg-sm-1">
+								<li><a href="./index.html" class="">首页</a></li>
+								<li class=""><a href="about.html" class="">关于我们</a></li>
+								<li class=""><a href="html/example.html" class="">专业团队</a></li>
+								<li class=""><a href="html/solution.html" class="">服务范围</a></li>
+								<li class=""><a href="html/solution.html" class="">服务理念</a></li>
+								<li class=""><a href="html/contact.html" class="">联系我们</a></li>
+								<li class="am-parent"><a href=""
+									class="nav-icon nav-icon-globe">English</a>
+									<ul class="am-menu-sub am-collapse  ">
+										<li class=""><a href="#">中文</a></li>
+									</ul></li>
+								<li class="nav-share-contain">
+									<div class="nav-share-links">
+										<i class="am-icon-facebook"></i> <i class="am-icon-twitter"></i>
+										<i class="am-icon-qq"></i>
+									</div>
+								</li>
+							</ul>
 
-							</div>
 						</div>
-					</nav>
-
-				</div>
+					</div>
+				</nav>
 			</div>
-			
+
 		</div>
 		<!--mobile header end-->
 	</div>
-	
-	
-	<div style="text-align: center;padding: 15px 0 15px 0;margin-top: 3px;height:440px;
-	background: url(./images/background1.jpg);background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-size: cover; ">
-		<div style="margin:0 auto;padding: 5px 0 25px 0;width:800px; height:400px;">
-		  <!-- -->
-		  <div data-am-widget="slider" class="am-slider am-slider-default" 
-		  	data-am-slider='{"animation":"fade", "directionNav":false}' >
-			  <ul class="am-slides">
-			      <li>
-			        	<img src="./images/ban1.png">
-			      </li>
-			      <li>
-			        	<img src="./images/ban2.png">
-			      </li>
-			  </ul>
+
+
+	<div
+		style="text-align: center; padding: 10px 0 10px 0; margin-top: 3px; width: 100%; max-height: 440px; background: url(./images/background1.jpg); background-attachment: fixed; background-repeat: no-repeat; background-size: cover;">
+		<!--800x400 为适配移动端，高度与宽度成比例，将 padding-bottom 设置为想要实现的 height 的值。同时将其 height 设置为 0 以使元素的“高度”等于 padding-bottom 的值 -->
+		<div
+			style="margin: 0 auto; padding: 5px 0 53% 0; max-width: 800px; width: 100%; height: 0;">
+			<!-- -->
+			<div data-am-widget="slider" class="am-slider am-slider-default"
+				data-am-slider='{"animation":"fade", "directionNav":false}'>
+				<ul class="am-slides">
+					<li><img src="./images/ban1.png"></li>
+					<li><img src="./images/ban2.png"></li>
+				</ul>
 			</div>
-		 </div>
+		</div>
 	</div>
 	
+	<div class="container">
+		<div style="max-width:990px;margin: 30px auto;background: #f6f5f5;display: flex;justify-content: space-between;">
+			<div style="max-width:510px;height:288px;padding: 10px 20px 0 20px;">
+				<h1>
+					<span style="font-size: 26px;color: #717a83;">About US</span>&nbsp; <span style="font-size: 16px;color: 00396f;">关于睿阳联合</span>
+				</h1>
+				<font style="font-size: 14px;">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京睿阳联合知识产权代理有限公司，为国家知识产权主管部门批准设立的致力于为国内外客户提供高质量法律支持的知识产权专业服务机构。创始合伙人及资深代理人均拥有十年以上的知识产权服务从业经历，具有丰富的业务处理经验和团队管理经验，多名联合创始人拥有专利审查员背景，所有人员均熟悉掌握中国与欧美日韩等主要工业化国家或地区的知识产权法律实践，并在全球主要热点市场地区拥有长期合作伙伴...
+					<a class="col9" href="/companyintro.html">[详情]</a>
+				</font>
+			</div>
+			<div class="am-hide-sm-only" style="max-width:480px;">
+				<img src="images/aboutus.png" style="width:460px;height:288px;">
+			</div>
+		</div>
+	</div>
+  	
 
-	
-	<div class="jd-container">
+	<div class="container">
+		<div style="max-width:990px;margin: 30px auto;>
+			<span style="font-size: 18px;color: #717a83;"><strong>服务范围</strong></span>
+			<span style="font-size: 12px;color: #717a83;">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------</span>      
+		      <a href="/patent.html"><span style="font-size: 12px;color: #717a83;">MORE>></span></a>
+		      <span style="font-size: 12px;color: #717a83;">-----</span> 
+		</div>
+	</div>
+
+
+
+	<div class="container">
 		<div data-am-widget="titlebar"
 			class="am-titlebar am-titlebar-default am-no-layout">
 			<h2 class="am-titlebar-title">新闻动态</h2>
@@ -204,8 +226,9 @@
 		</ul>
 	</div>
 
-	<div class="jd-hr">
-		<div class="jd-container">
+	<div
+		style="background: #f5f5f5; padding: 5px 0 25px 0; margin-top: 20px;">
+		<div class="container">
 			<div data-am-widget="titlebar"
 				class="am-titlebar am-titlebar-default am-no-layout">
 				<h2 class="am-titlebar-title">招贤纳士</h2>
@@ -243,8 +266,8 @@
 			</ul>
 		</div>
 	</div>
-	
-		
+
+
 	<footer data-am-widget="footer"
 		class="am-footer am-footer-default am-no-layout">
 		<div class="am-footer-miscs ">

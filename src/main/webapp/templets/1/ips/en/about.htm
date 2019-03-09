@@ -24,7 +24,7 @@
                                 <div class="carousel-item">
                                     <div class="carousel-img">
                                         <a href="javascript:;" target="">
-                                            <img src="{ms:globalskin.url/}images/26.jpg" height="350" alt="公司简介" />
+                                            <img src="{ms:globalskin.url/}images/2.jpg" height="350" alt="公司简介" />
                                         </a>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@
 	                        <div class="breadcrumbs float-right" skinobjectzone="HtmlBreadCrumb_2741">
 	                            <span> 当前位置： </span>
 	                            <a href='{ms:global.host/}'>  主页 </a> >
-	                            <a href='{ms:field.typelink/}?id=7'>{ms:field.typetitle/} </a> 
+	                            <a href='{ms:field.typelink/}?id=2'>{ms:field.typetitle/} </a> 
 	                        </div>
 	                        <!-- E breadcrumbs -->
 	                        <!-- S page-name -->
@@ -93,7 +93,6 @@
 	                                    <div class="qhd-content">
 											{ms:field.content/}
 	                                    </div>
-	                                    <iframe src="http://cdn.mingsoft.net/global/map.htm?wmode=transparent&;wmode=transparent" id="ifrm" name="ifrm" width="100%" height="320" frameborder="0" scrolling="no" onload="document.all('ifrm').style.height=ifrm.document.body.scrollHeight+30;"></iframe>
 	                                    <!-- End_Module_104357 -->
 	                                </div>
 	                            </div>
@@ -107,18 +106,20 @@
 	                    <section class="page-menu" skinobjectzone="menu_2924">
 	                        <div class="page-menu-title page-menu-title-max">
 	                            <h3>
-									联系我们
+									关于我们
 	                            </h3>
 	                        </div>
 	                        <div class="page-menu-content">
 	                            <ul>
-	                                <li class='current'>
-	                                    <a href='{ms:global.url/}/19/index.html?id=7'>
-	                                    	联系我们
+	                            {ms:channel typeid=53 class=current}
+	                                <li class='[field.class/]'>
+	                                    <a href='[field.typelink/]?id=2'>
+											 [field.typetitle/]
 	                                    </a>
 	                                    <i>
 	                                    </i>
 	                                </li>
+	                            {/ms:channel}   
 	                            </ul>
 	                            <!-- S 没有子菜单时输出 -->
 	                            <!-- E 没有子菜单时输出 -->

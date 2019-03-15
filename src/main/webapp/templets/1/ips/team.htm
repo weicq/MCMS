@@ -1,158 +1,84 @@
-﻿<!DOCTYPE html>
+﻿<html>
+<head>
 {ms:include filename=head-file.htm/}
+</head>
+<body>
+	{ms:include filename=head.htm/}
 
-<body class="font-zh-CN" style="background:url({ms:globalskin.url/}images/bg-img-02.jpg) top center fixed;">
-   
-    <form name="Form" method="post" action="" id="Form" enctype="multipart/form-data" style="height:inherit">
-        <div>
-            <input type="hidden" name="__VIEWSTATE_CACHEKEY" id="__VIEWSTATE_CACHEKEY"
-            value="VS_mcrb0e0i2fa21sa4wnffrdbk_/about_01/language_zh-CN" />
-        </div>
-        <div id="wrapper" class="insi-page">
-        {ms:include filename=head.htm/}
-            <!--====================S top====================- ->
-            <div id="a1portalSkin_headerAreaA" class="header"><!-- Start_Module_104358 -->
-            <a name="31728" id="31728">
-            </a>
-            <div class="module-default">
-                <div class="module-inner">
-                    <div id="a1portalSkin_ctr104358104358_mainArea" class="module-content">
-                        <!-- Start_Module_104358 -->
-                        <!-- S slideshow -->
-                        <div class="slideshow slideshow-min carousel clearfix" style="height:350px; overflow:hidden;">
-                            <div id="carousel-104358">
-                                <div class="carousel-item">
-                                    <div class="carousel-img">
-                                        <a href="javascript:;" target="">
-                                            <img src="{ms:globalskin.url/}images/2.jpg" height="350" alt="公司简介" />
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-btn carousel-btn-fixed" id="carousel-page-104358">
-                            </div>
-                        </div>
-                        <script type="text/javascript">
-                            $(window).bind("load resize",
-                            function() {
-                                $("#carousel-104358").carouFredSel({
-                                    width: '100%',
-                                    items: {
-                                        visible: 1
-                                    },
-                                    auto: {
-                                        pauseOnHover: true,
-                                        timeoutDuration: 5000
-                                    },
-                                    swipe: {
-                                        onTouch: true,
-                                        onMouse: true
-                                    },
-                                    pagination: "#carousel-page-104358",
-                                    scroll: {
-                                        fx: "crossfade"
-                                    }
-                                });
-                            });
-                        </script>
-                        <!-- E slideshow -->
-                        <!-- End_Module_104358 -->
-                    </div>
-                </div>
-            </div>
-	        <section class="main">
-	            <div class="page-width clearfix">
-	                <!-- S content -->
-	                <section class="content float-right">
-	                    <!-- S page-title -->
-	                    <section class="page-title page-title-inner clearfix">
-	                        <!-- S breadcrumbs -->
-	                        <div class="breadcrumbs float-right" skinobjectzone="HtmlBreadCrumb_2741">
-	                            <span> 当前位置： </span>
-	                            <a href='{ms:global.host/}'>  主页 </a> >
-	                            <a href='{ms:field.typelink/}?id=2'>{ms:field.typetitle/} </a> 
-	                        </div>
-	                        <!-- E breadcrumbs -->
-	                        <!-- S page-name -->
-	                        <div class="page-name float-left">
-	                            <h2>
-									{ms:field.title/}
-	                            </h2>
-	                        </div>
-	                        <!-- E page-name -->
-	                    </section>
-	                    <!-- E page-title -->
-	                    <div id="a1portalSkin_mainArea" class="content-wrapper">
-	                        <!-- Start_Module_104357 -->
-	                        <a name="31692" id="31692">
-	                        </a>
-	                        <div class="module-default">
-	                            <div class="module-inner">
-	                                <div id="a1portalSkin_ctr104357104357_mainArea" class="module-content">
-	                                    <!-- Start_Module_104357 -->
-	                                    <div class="qhd-content">
-											{ms:field.content/}
-	                                    </div>
-	                                    <!-- End_Module_104357 -->
-	                                </div>
-	                            </div>
-	                        </div>
-	                    </div>
-	                </section>
-	                <!-- S content -->
-	                <!-- S sidebar -->
-	                <section class="sidebar float-left">
-	                    <!-- S page-menu -->
-	                    <section class="page-menu" skinobjectzone="menu_2924">
-	                        <div class="page-menu-title page-menu-title-max">
-	                            <h3>
-									关于我们
-	                            </h3>
-	                        </div>
-	                        <div class="page-menu-content">
-	                            <ul>
-	                            {ms:channel typeid=53 class=current}
-	                                <li class='[field.class/]'>
-	                                    <a href='[field.typelink/]?id=2'>
-											 [field.typetitle/]
-	                                    </a>
-	                                    <i>
-	                                    </i>
-	                                </li>
-	                            {/ms:channel}   
-	                            </ul>
-	                            <!-- S 没有子菜单时输出 -->
-	                            <!-- E 没有子菜单时输出 -->
-	                            <script type="text/javascript">
-	                                $(document).ready(function() {
-	                                    $('.page-menu-content ul').find('li:last').addClass('last');
+	<div
+		style="text-align: center; padding: 10px 0 10px 0; margin-top: 3px; width: 100%; max-height: 80px; background: url({ms:globalskin.url/}images/background-team2.jpg); background-repeat: no-repeat; background-size: cover;">
+		<!--800x400 为适配移动端，高度与宽度成比例，将 padding-bottom 设置为想要实现的 height 的值。同时将其 height 设置为 0 以使元素的“高度”等于 padding-bottom 的值 -->
+		<div style="margin: 0 auto; padding: 5px 0 53% 0; max-width: 800px; width: 100%; height: 0;test-align:center;">
+			<p style="font-size:26px;font-weight: bold; color: white;text-shadow: 2px 2px 0 #df5320;">Team 精 英 团 队</p>
+		</div>
+	</div>
 	
-	                                    $('.page-menu-content > ul > li > a').click(function() {
-	                                        if ($(this).parent('li').find('ul')) {
-	                                            $(this).parent('li').find('ul').slideDown('fast');
-	                                            $(this).parent('li').siblings('li').find('ul').slideUp('fast');
-	                                            $(this).parent('li').addClass('current').siblings('li').removeClass('current');
-	                                        }
-	                                    });
 	
-	                                });
-	                            </script>
-	                        </div>
-	                    </section>
-	                    <!-- S page-menu -->
-	                    <div class="clear">
-	                    </div>
-	                    <div id="a1portalSkin_sidebarAreaA" class="QHDEmptyArea sidebar-content">
-	                    </div>
-	                </section>
-	                <!-- E sidebar -->
-	            </div>
-	        </section>
-	        {ms:include filename=footer.htm/}
-        </div>
-    </form>
-    <!-- 外部脚本 -->
-    <!--织梦无忧（dedecms51.com）做最好的织梦整站模板下载网站-->
+	<div class="container">
+		<div style="max-width:990px;margin: 30px auto;display: flex;justify-content: space-between;">
+			<div style="max-width:990px;padding: 10px 20px 20px 20px;">
+				<font style="font-size: 16px;">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京睿阳联合知识产权代理有限公司专业人员大都拥有知名院校的硕士以上学位，均具有海内外知名企业、事务所的研修经历或法学院的学位，能够以中英双语为客户服务，专业技术领域覆盖计算机、生物技术、医药、通信、医疗器械、化工、半导体材料、食品及加工、机械制造、汽车等传统产业以及互联网、纳米技术、核能与风能发电等多个活跃的创新领域。
+				</font>
+			</div>
+		</div>
+	</div>
+{ms:arclist  orderby=sort order=asc typeid=5}
+	<div class="container">
+		<div style="max-width:990px;margin: 30px auto;background: #f6f5f5;">
+			<ul class="am-gallery am-avg-sm-1 am-avg-md-2 am-avg-lg-2 am-gallery-default" >
+				<li>
+					<div style="background: #f6f5f5;margin:0 0px;padding:10px 8px;">
+						<center>
+						  <center style="width:230px;background: #2982a2;margin:0 0px;padding:12px 8px 0px 8px; box-shadow: darkgrey 2px 2px 5px 2px ;">
+								<img src="[field.litpic/]" >
+								<p style="margin-top:0;padding:3px 3px;font-size:20px;font-weight: bold; color: white;text-shadow: 2px 1px 0 #b3b3b3;">[field.title/]</p>
+						  </center>
+						</center>
+						<center>
+						  <i style="color: #7c6aa6; font-size: 18px;test-align:center;" class="am-icon-envelope-o">&nbsp;&nbsp;[field.source/]</i>
+						</center>
+				  </div>
+				</li>
+				<li>
+					<div >
+						<span style="font-size: 20px;color: #717a83;text-align:left;">
+								<strong>[field.descrip/]</strong></br>
+						</span>
+					  <span style="font-size: 14px;color: #717a83;text-align:left;">
+                                                 [field.content/]
+					  </span>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+{/ms:arclist}
+		
+	<footer data-am-widget="footer"
+		class="am-footer am-footer-default am-no-layout">
+		<div class="am-footer-miscs ">
+			<p>©2018-2019 北京睿阳联合知识产权代理有限公司.</p>
+			<p>京ICP备 14048711号</p>
+		</div>
+		<div class="am-footer-miscs ">
+			<p>地址：北京海淀区长春桥路11号亿城中心C1座1805A</p>
+			<p>电话：86-10-58815456 &nbsp;&nbsp;Email：mail@ipsunny.com</p>
+		</div>
+	</footer>
+	<div id="am-footer-mode"
+		class="am-modal am-modal-no-btn am-switch-mode-m am-switch-mode-m-default">
+		<div class="am-modal-dialog">
+			<div class="am-modal-hd am-modal-footer-hd">
+				<a href="javascript:void(0)" data-dismiss="modal"
+					class="am-close am-close-spin" data-am-modal-close="">×</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="{ms:globalskin.url/}js/jquery.min.js"></script>
+	<script src="{ms:globalskin.url/}js/amazeui.min.js"></script>
+
+
 </body>
-
 </html>
